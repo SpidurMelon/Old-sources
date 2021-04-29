@@ -1,0 +1,41 @@
+Random rand = new Random();
+		while (Game.run) {
+		int yo = rand.nextInt(850);
+		if (yo%50 == 0) {
+			run = false;
+			Game.y = yo;
+		
+		}
+		}
+		
+		Random rand2 = new Random();
+		while (Game.run2) {
+		int xo = rand2.nextInt(950);
+		if (xo%50 == 0) {
+			run2 = false;
+			Game.x = xo;
+		}
+		}
+		
+		rect2 = new Rectangle(Game.x, Game.y, 50, 50);
+		
+		Random rand3 = new Random();
+		while (Game.run3) {
+		int yo = rand3.nextInt(850);
+		if (yo%50 == 0) {
+			run3 = false;
+			Game.u = yo;
+		
+		}
+		}
+		
+		Random rand4 = new Random();
+		while (Game.run4) {
+		int xo = rand4.nextInt(950);
+		if (xo%50 == 0) {
+			run4 = false;
+			Game.o = xo;
+		}
+		}
+		
+		rect3 = new Rectangle(Game.u, Game.o, 50, 50);

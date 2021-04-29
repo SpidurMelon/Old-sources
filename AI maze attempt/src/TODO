@@ -1,0 +1,6 @@
+// TODO
+- Fix arrayIndexOutOfBoundExceptions from trying to move to outside the boundaries, as well as checking for blocks there
+
+- Fix Robot.java(line number 169)
+
+- Fix Util.newNetwork(); so that it doesnt try the same thing twice

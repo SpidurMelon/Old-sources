@@ -1,0 +1,18 @@
+7
+2
+1 8 4 9 3 1 9
+7 1 4 1 0 7 3
+
+first line: width
+second line: height
+
+0 = air
+1 = solid block
+2 = platform
+3 = solid air
+4 = ghost block
+5 =
+6 =
+7 = spikes up
+8 = player spawn
+9 = door
