@@ -166,11 +166,16 @@ public class Game extends Applet implements KeyListener {
 			DoorY = 1200;
 		}
 		if (FirstImage) {
+		g.fillRect(rect.x, rect.y, dot, dot2);
 		g.drawImage(character2, rect.x, rect.y, dot, dot2, this);
 		}
+
 		if (SecondImage) {
+		g.fillRect(rect.x, rect.y, dot, dot2);
 		g.drawImage(character, rect.x, rect.y, 50, 50, this);
 		}
+		g.setColor(Color.YELLOW);
+		g.fillRect(DoorX, DoorY, 50, 50);
 		g.drawImage(Closed, DoorX, DoorY, 50, 50, this);
 		g.drawImage(Key, IX, IY, 50, 50, this);
 		g.drawImage(myImage, 400, 600, 50, 50, this);
